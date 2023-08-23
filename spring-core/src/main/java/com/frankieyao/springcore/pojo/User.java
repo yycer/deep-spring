@@ -1,0 +1,9 @@
+package com.frankieyao.springcore.pojo;
+
+import lombok.Data;
+
+@Data
+public class User {
+    private String name;
+    private int age;
+}
