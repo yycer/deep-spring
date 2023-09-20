@@ -6,8 +6,8 @@ import java.util.List;
 
 public class Client {
     public static void main(String[] args) {
-        List<String> names = new ArrayList<>(Arrays.asList("a", "b", "c", "d"));
-        MyIterator<String> iterator = new MyIterator<>(names);
+        List<String> list = new ArrayList<>(Arrays.asList("a", "b", "c", "d"));
+        MyIterator<String> iterator = new MyIterator<>(list);
 
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
